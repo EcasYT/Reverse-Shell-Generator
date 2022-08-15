@@ -39,3 +39,6 @@ python3 rshells.py
 - **Codificar en base64**
 - **Codificar en UrlEncode**
 
+## Disclaimer
+El autor de Reverse-Shell-Generator no será responsable en caso de que se presenten cargos penales contra cualquier persona que haga un mal uso de la herramienta para infringir la ley.
+
