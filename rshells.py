@@ -1,9 +1,7 @@
 
-from ast import For
 import os
 import base64
 from time import sleep
-from tkinter import N
 import urllib.parse
 import colorama
 from colorama import Fore
@@ -32,10 +30,10 @@ print(Fore.GREEN +  """
 ██║░░██║███████╗░░╚██╔╝░░███████╗██║░░██║██████╔╝░░░░░░██████╔╝██║░░██║███████╗███████╗███████╗░░░░░░╚██████╔╝███████╗██║░╚███║
 ╚═╝░░╚═╝╚══════╝░░░╚═╝░░░╚══════╝╚═╝░░╚═╝╚═════╝░░░░░░░╚═════╝░╚═╝░░╚═╝╚══════╝╚══════╝╚══════╝░░░░░░░╚═════╝░╚══════╝╚═╝░░╚══╝        """ +  Fore.RED + "By:EcasYT")
 
-#sleep(3)
+sleep(3)
 
 
-shell_type = int(input(Fore.BLACK + (""" 
+shell_type = int(input(""" 
 #------Reverse shell type-----# 
 1)Bash
 2)Netcat 
@@ -54,7 +52,7 @@ shell_type = int(input(Fore.BLACK + ("""
 15)Telnet
 16)zsh
 17)Awk
----> """  )))
+---> """  ))
 
 ip = input("""
 IP --> """)
@@ -153,14 +151,12 @@ if encode == 1:
 elif encode == 2:
     shell_type_encoded = urllib.parse.quote(shell_type)
 
-    
 
 
 
-print(Fore.BLACK +  "Reverse shell ---> " + Fore.RED  + shell_type)
+print(Fore.CYAN +  "Reverse shell ---> " + Fore.RED  + shell_type)
 
 
 
-print(Fore.BLACK + "\nReverse shell encoded --->" + Fore.RED + shell_type_encoded)
+print(Fore.CYAN + "\nReverse shell encoded --->" + Fore.RED + shell_type_encoded)
  
-
